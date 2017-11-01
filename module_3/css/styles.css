@@ -17,7 +17,7 @@ body {
     margin-bottom: 280px;
 }
 
-p{
+p {
     font-size: 12px;
 }
 
@@ -27,8 +27,7 @@ p{
 
 .first {
     padding-top: 59px;
-    padding-right: 38px;
-    
+    padding-right: 38px; 
 }
 
 .second {
@@ -58,11 +57,11 @@ p{
     height: 200px;  
 }
 
-.first-table{
+.first-table {
     display: inline-block;
 }
 
-.second-table{
+.second-table {
     display: inline-block;
     vertical-align: top;    
 }
