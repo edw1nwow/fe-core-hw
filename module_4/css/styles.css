@@ -1,0 +1,89 @@
+body {
+    background-image: url(../img/page-bg.png);
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 230px;
+    padding-left: 63px;
+    padding-top: 115px;
+    width: 1024px;
+    margin-bottom: 268px;
+    padding-bottom: 77px;
+}
+
+.first {
+    display: inline-block;
+    width: 650px;
+}
+
+.first img {
+    float: left;
+    margin: 0px 24px 24px 0;
+}
+
+p {
+    font-size: 13px;
+}
+
+.second {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.second h2 {
+    margin-left: 24px;
+}
+
+.divider {
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.third {
+    display: inline-block;
+    width: 650px;
+}
+
+.third li {
+    list-style-image: url(../img/1.png);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.first-table {
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.second-table {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fourth {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.fourth h2 {
+    margin-left: 50px;
+}
+
+.bg {
+    margin-left: 10px;
+    background-image: url(../img/bg-list.png);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+.bg p {
+    padding: 23px;
+    font-size: 15px;
+    width: 168px;
+    height: 219px;
+}
