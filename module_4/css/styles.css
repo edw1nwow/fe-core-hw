@@ -6,7 +6,6 @@ body {
 .wrapper {
     background-color: #fff;
     margin: 0 auto;
-    margin-top: 230px;
     padding-left: 63px;
     padding-top: 115px;
     width: 1024px;
@@ -32,10 +31,56 @@ p {
     display: inline-block;
     vertical-align: top;
     width: 300px;
+    position: absolute;
 }
 
 .second h2 {
-    margin-left: 24px;
+    margin-left: 10px;
+}
+
+.rounded li {
+    list-style-type: none;
+    position: relative;
+    top: -40px;
+}
+
+.rounded li:nth-child(1):before {
+    position: relative;
+    left: -32px;
+    top: 39px;
+    content: "1";
+    font-size: 13px;
+    border: 8px solid #38afe5;
+    border-radius: 100%;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 3px;
+}
+
+.rounded li:nth-child(2):before {
+    position: relative;
+    left: -32px;
+    top: 39px;
+    content: "2";
+    font-size: 13px;
+    border: 8px solid #38afe5;
+    border-radius: 100%;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 3px;
+}
+
+.rounded li:nth-child(3):before {
+    position: relative;
+    left: -32px;
+    top: 39px;
+    content: "3";
+    font-size: 13px;
+    border: 8px solid #38afe5;
+    border-radius: 100%;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 3px;
 }
 
 .divider {
