@@ -1,0 +1,58 @@
+@charset "utf-8";
+body {
+    font-family: Dorsa, Arial, sans-serif;
+    font-size: 1em;
+    background-color: #000;
+    position: relative;
+}
+
+.wrapper {
+    height: 1000px;
+}
+
+.left, .right {
+    width: 50px;
+    height: 100px;
+    border: 2px solid #38afe5;
+    background: #38afe5;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+.left {
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+.left:hover{
+    opacity: 0.5;
+}
+.left::before {
+    content: "←";
+     position: absolute;
+    top:35%;
+    left: 50%;
+}
+.left p{
+   
+}
+
+.right {
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    vertical-align: top;
+    margin-left: -2px;
+}
+.right:hover{
+    opacity: 0.5;
+}
+.right::before{
+    content: "→";
+    position: absolute;
+    top:35%;
+    left: 15%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

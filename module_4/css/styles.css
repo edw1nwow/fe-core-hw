@@ -1,6 +1,7 @@
 body {
     background-image: url(../img/page-bg.png);
     background-repeat: no-repeat;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .wrapper {
@@ -115,6 +116,7 @@ p {
     display: inline-block;
     vertical-align: top;
     width: 300px;
+ 
 }
 
 .fourth h2 {
@@ -130,7 +132,7 @@ p {
 
 .bg p {
     padding: 23px;
-    font-size: 15px;
+    font-size: 13px;
     width: 168px;
     height: 219px;
 }
