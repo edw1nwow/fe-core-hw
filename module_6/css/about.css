@@ -16,6 +16,7 @@ nav {
     justify-content: center;
     width: 1000px;
     position: relative;
+    margin-top: -20px;
 }
 
 .menu {
@@ -67,6 +68,7 @@ nav {
     color: #000;
 }
 
+
 .logo {
     font-family: Dorsa, Arial, sans-serif;
     font-size: 5em;
@@ -85,17 +87,150 @@ a {
 }
 
 .wrapper {
-    margin: 0px auto;
-    background-color: #fff;
-    position: relative;
-    margin-top: 50px;
-    padding: 50px 50px;
-    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
     width: 95%;
-    box-sizing: border-box;
     max-width: 1000px;
+    background-color: #fff;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
     flex-wrap: wrap;
-    min-height: 568px;
+    justify-content: space-around;
+}
+
+.first {
+    width: 600px;
+}
+
+.first img {
+    float: left;
+    margin: 0px 24px 24px 0;
+}
+
+p {
+    font-size: 13px;
+}
+
+.second {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.second h2 {
+    margin-left: 10px;
+}
+
+.rounded li {
+    list-style-type: none;
+    position: relative;
+    top: -40px;
+}
+
+.rounded li:nth-child(1):before {
+    position: relative;
+    left: -32px;
+    top: 39px;
+    content: "1";
+    font-size: 13px;
+    border: 8px solid #38afe5;
+    border-radius: 50%;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 0 3px;
+}
+
+.rounded li:nth-child(2):before {
+    position: relative;
+    left: -32px;
+    top: 39px;
+    content: "2";
+    font-size: 13px;
+    border: 8px solid #38afe5;
+    border-radius: 50%;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 0 3px;
+}
+
+.rounded li:nth-child(3):before {
+    position: relative;
+    left: -32px;
+    top: 39px;
+    content: "3";
+    font-size: 13px;
+    border: 8px solid #38afe5;
+    border-radius: 50%;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 0px 3px;
+}
+
+.divider {
+    padding-top: 58px;
+    padding-bottom: 58px;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.third li {
+    list-style-image: url(../img/left.png);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.bottom-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-table ul {
+    padding-left: 20px;
+}
+
+.second-table {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    width: 300px;
+}
+
+.fourth h2 {
+    margin-left: 50px;
+}
+
+.bg {
+    margin-left: 10px;
+    background-image: url(../img/bg-list.png);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+.bg p {
+    padding: 0 23px;
+    font-size: 18px;
+    width: 168px;
+    height: 219px;
 }
 
 .tt {
@@ -117,59 +252,6 @@ a {
 .tt:hover {
     opacity: 1;
     transition: opacity 1s ease-out;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    min-width: 300px;
-}
-
-.gallery div {
-    width: 290px;
-    position: relative;
-    margin: 5px;
-}
-
-.gallery div::after {
-    background-color: grey;
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    content: url(../img/10.png);
-    text-align: center;
-    line-height: 180px;
-    display: block;
-    overflow: hidden;
-}
-
-.gallery div:hover::after {
-    z-index: 5;
-    opacity: 0.5;
-}
-
-.picture {
-    z-index: 1;
-}
-
-.gallery .zoom {
-    position: absolute;
-    display: none;
-    top: 0%;
-    z-index: 2;
-}
-
-.gallery img {
-    width: 100%;
-    display: block;
-    background-size: 100%;
-}
-
-.gallery .picture:hover + .zoom {
-    opacity: .5;
 }
 
 .bot-nav ul {
@@ -204,24 +286,19 @@ a {
     width: 150px;
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .footer ul {
     margin: auto;
     padding: 0;
     list-style: none;
     display: flex;
-    width: 95%;
     max-width: 1000px;
+    width: 95%;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    padding: 10px 50px;
-    box-sizing: border-box;    
+    height: 100px;
+    padding: 0 50px;
 }
 
 .footer li > a {
