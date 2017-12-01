@@ -1,0 +1,43 @@
+@font-face {
+    font-family: PathwayGothicOne-Regular;
+    src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+
+body {
+    font-family: PathwayGothicOne-Regular, Arial, sans-serif;
+    font-size: .7em
+}
+
+.search-operator {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 200px;
+}
+
+.searcher h2 {
+    margin-bottom: 30px;
+}
+
+.searcher .row {
+    display: block;
+    padding: 7px 0;
+    margin-bottom: 7px;
+}
+
+.ro select {
+    width: 95%;
+    margin: 10px 0;
+}
+
+.center {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bl {
+    color: #49cadd;
+}
+
+.search-but {
+    width: 30%;
+}

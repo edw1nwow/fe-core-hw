@@ -1,0 +1,25 @@
+.tabl {
+    width: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+}
+
+caption {
+    width: 220px;
+    text-align: left;
+    caption-side: top;
+    margin: 20px 8px;
+}
+td a {
+    text-decoration: none;
+    color: #000;
+}
+.email {
+    color: #f80404;
+}

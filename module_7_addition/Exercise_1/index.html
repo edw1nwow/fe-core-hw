@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contacts-wrapper">
+        <h1>Contact us</h1>
+        <form class="contactform" name="contact" method="post" action="#">
+            <div class="row">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Name" required>
+            </div>
+
+            <div class="row">
+                <label for="email"></label>
+                <input type="email" name="email" class="txt" tabindex="2" placeholder="EMAIL" required>
+            </div>
+
+            <div class="row">
+                <label for="subject"></label>
+                <input type="text" name="subject" placeholder="SUBJECT" class="txt" tabindex="3" required>
+            </div>
+
+            <div class="row">
+                <label for="message"></label>
+                <textarea name="message" placeholder="MESSAGE" class="txtarea" tabindex="4" required></textarea>
+            </div>
+
+            <div class="center">
+               <input type="reset" name="submitbtn" class="csub" tabindex="6" value="clear">
+                <input type="reset" name="submitbtn" class="csub"  tabindex="5" value="send">
+           
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

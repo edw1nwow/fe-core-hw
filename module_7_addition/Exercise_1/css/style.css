@@ -1,0 +1,49 @@
+@font-face {
+    font-family: PathwayGothicOne-Regular;
+    src: url(../fonts/PathwayGothicOne-Regular.ttf);
+}
+body {
+    font-family: PathwayGothicOne-Regular, Arial, sans-serif;
+}
+.contacts-wrapper {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 200px;
+}
+.contactform input {
+    outline: 0;
+}
+form .row {
+    display: block;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+}
+.row input {
+    width: 95%;
+}
+textarea {
+    width: 95%;
+}
+.txtarea {
+    resize: none;
+    height: 300px;
+}
+
+.center input {
+
+    border: 1px solid #fff;
+}
+::-webkit-input-placeholder {
+    color:#000;
+     opacity: 1;
+    font-size: 1.3em;
+    font-family: PathwayGothicOne-Regular, Arial, sans-serif;
+}
+.center {
+    display: flex;
+    justify-content: flex-end;
+}
+.csub {
+     font-family: PathwayGothicOne-Regular, Arial, sans-serif;
+    font-size: 1.3em;
+}
