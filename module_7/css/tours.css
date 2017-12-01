@@ -109,23 +109,23 @@ a {
     flex-direction: row;
     padding: 1%;
 }
-.articles div{
+.articles div {
     padding: 0 5px;
 }
 .full-width {
     width: 100%;
 }
-.description input{
+.description input {
     display: block;
     margin-top: 20px;
 }
-.description h4{
+.description h4 {
     margin: 0;
 }
-.description span{
+.description span {
     color: #38afe5;
 }
-.description p{
+.description p {
     margin-bottom: 0;
 }
 .search-operator {
@@ -161,6 +161,7 @@ a {
 .search-but {
     width: 30%;
 }
+
 .tt {
     content: "↑";
     color: #fff;
@@ -217,7 +218,6 @@ a {
 .footer {
     display: flex;
     flex-direction: column;
-
 }
 
 .footer ul {

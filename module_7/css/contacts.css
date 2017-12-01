@@ -97,9 +97,13 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.google-maps, .tabl, .contacts-wrapper {
+
+.google-maps,
+.tabl,
+.contacts-wrapper {
     margin: 1%;
 }
+
 .google-maps {
     width: 45%;
     max-width: 400px;
@@ -107,7 +111,7 @@ a {
 
 .tabl {
     width: 20%;
-    padding-top: 5%;  
+    padding-top: 5%;
     max-width: 200px;
 }
 
