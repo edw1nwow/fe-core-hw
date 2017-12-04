@@ -1,0 +1,32 @@
+nav, .wrapper, footer {
+    max-width: 960px;
+    width: 100%;
+    background-color: yellow;
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 960px;
+    width: 100%;
+}
+.footer {
+    background-color: red;
+}
+.sidebar, main, .article {
+    background-color: aqua;
+}
+.sidebar {
+    max-width: 520px;
+    width: 100%;
+}
+main, .article {
+    max-width: 200px;
+    width: 100%;
+}
+

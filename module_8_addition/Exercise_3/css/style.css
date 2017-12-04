@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    background-color: grey;
+    color: black;
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.content, .sidebar, .tt {
+    margin: 1%;
+    
+}
+.content {
+    max-width: 49%;
+    width: 100%;
+    background-color: red;    
+}
+.sidebar {
+    max-width: 20%;
+    width: 100%;
+    background-color: green;
+}
+.tt {
+    max-width: 20%;
+    width: 100%;
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        
+    }
+    .content {
+        max-width: 100%;
+        width: 100%;
+    }
+   .sidebar {
+    max-width: 45%;
+    width: 100%;
+    background-color: green;
+    }
+.tt {
+    max-width: 45%;
+    width: 100%;
+    background-color: blue;
+}
+    
+}
+@media (max-width: 480px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .content, .sidebar, .tt {
+    margin: 0px;
+    
+}
+    .content {
+        max-width: 95%;
+        width: 100%;
+        height: 30%;
+    }
+    .sidebar{
+        width: 95%;
+        max-width: 100%;
+        height: 30%;
+    }
+     .tt {
+        width: 95%;
+        max-width: 100%;
+         height: 30%;
+    }
+}
