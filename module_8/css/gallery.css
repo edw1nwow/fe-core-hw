@@ -520,8 +520,8 @@ a {
     .info li:nth-child(8) a:nth-child(1)::before{
         content: url(../img/telephone.png);
         margin: 10% 3%;
-        line-height: 30px;
     }
+    
     .info li:nth-child(8) a:nth-child(2)::before{
         content: url(../img/mail.png);
          margin: 10% 3%;
@@ -536,6 +536,7 @@ a {
         justify-content: center;
         padding: 50px 0;
     }
+    
     .footer ul {
         padding: 20px 0;
     }
