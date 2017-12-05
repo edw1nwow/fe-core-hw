@@ -8,21 +8,24 @@ body {
     background-image: url(../img/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav {
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     position: relative;
-    min-width: 888px;
     width: 95%;
     max-width: 1000px;
 }
 
 .menu {
-    padding-bottom: 20px;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .menu li {
@@ -88,20 +91,15 @@ a {
 }
 
 .wrapper {
-    margin: 0px auto;
     background-color: #fff;
     position: relative;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    min-height: 568px;
     max-width: 1000px;
-    min-width: 480px;
     width: 95%;
     padding: 50px 50px;
     box-sizing: border-box;
-    min-width: 888px;
-    justify-content: center;
 }
 
 .tt {
@@ -135,7 +133,8 @@ a {
 }
 
 .gallery div {
-    width: 290px;
+    max-width: 290px;
+    width: 100%;
     position: relative;
     margin: 5px;
 }
@@ -180,19 +179,21 @@ a {
     opacity: .5;
 }
 
-
-.bot-nav ul {
-    color: #fff;
+.bot-nav {
     background-color: #30455b;
-    margin: auto;
+    color: #fff;
+    margin: 0;
+    max-width: 1000px;
+    width: 95%;
+}
+.bot-nav ul {
     list-style: none;
-    box-sizing: border-box;
     line-height: 30px;
     flex-wrap: wrap;
     list-style-type: none;
     max-width: 1000px;
-    min-width: 888px;
     width: 95%;
+    margin: 0;
     padding: 10px;
     padding-left: 100px;
     box-sizing: border-box;
@@ -217,12 +218,10 @@ a {
 }
 
 .footer {
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 568px;
     max-width: 1000px;
-    min-width: 888px;
     width: 95%;
     padding: 50px 50px;
     box-sizing: border-box;
@@ -299,155 +298,145 @@ a {
     transition: opacity .7 ease-out;
 }
 @media (max-width: 1024px) {
-    .wrapper,
-    .footer,
-    .bot-nav ul{
-        width: 100%;
-        display: flex;
-    }
-    .bot-nav ul li {
-        margin-left: 0%;
-    }
-    
-    .wrapper {
-        display: flex; 
-    }
-    
-    .h-gallery h2{
-        padding-left:0;
-    }
-    
     .gallery {
         display: flex;
-        justify-content: center;
-        margin-left: 0%;
-        padding-left: 5%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
     }
-    .bot-nav ul {
-        margin: 0;
-    
-        padding-right: 15px;
+    .gallery div {
+        width: 30%;
     }
     .info .FAQS-PAGE {
         order: 1;
-        margin-left: 0px;
     }
     .info .PEOPLE-SAY {
         order: 5;
     }
     .info .USEFUL-LINKS {
         order: 2;
-        margin-left: 0px;
     }
     .info .PARTNERS {
         order: 6;
     }
     .info .INSURANCE {
-        order: 3;
-        margin-left: 0px;
+        order: 3;  
     }
     .info .FAMILY-TRAVEL {
         order: 7;
     }
     .info .CONTACT-US {
         order: 4;
-        margin-left: 0px;
     }
     .info .TEL {
         order: 8;
     }
+    .tt {
+        bottom: 5%;
+        right: 5%;
+    }
+        
 }
 @media (max-width: 768px) {
-    .wrapper,
-    .footer,
+    .gallery div {
+        width: 40%;
+    }
     .bot-nav ul{
-        width: 100%;
-        display: flex;
-    }
-    .bot-nav ul li {
-        margin-left: 0%;
-    }
-    
-    .wrapper {
-        display: flex; 
-    }
-    
-    .h-gallery h2{
-        padding-left:0;
-    }
-    
-    .gallery {
-        display: flex;
-        justify-content: center;
-        margin-left: 0%;
-        padding-left: 5%;
-    }
-    .bot-nav ul {
+        padding: 5%;
         margin: 0;
-        padding-right: 15px;
     }
+    .bot-nav li {
+        padding: 0;
+        padding-left: %; 
+    }
+    .bot-nav li a {
+        font-size: 1em;
+        padding: 5%;
+    }
+    
     .info .FAQS-PAGE {
         order: 1;
-        margin-left: 40%;
     }
     .info .PEOPLE-SAY {
         order: 2;
-        margin-left: 40%;
     }
     .info .USEFUL-LINKS {
         order: 3;
-        margin-left: 40%;
     }
     .info .PARTNERS {
-        order: 4;
-        margin-left: 40%;
+        order: 7;
     }
     .info .INSURANCE {
         order: 5;
-        margin-left: 40%;
     }
     .info .FAMILY-TRAVEL {
         order: 6;
-        margin-left: 40%;
     }
     .info .CONTACT-US {
-        order: 7;
-        margin-left: 40%;
+        order: 4;
     }
     .info .TEL {
         order: 8;
-        margin-left: 40%;
     }
+    .tt {
+        right: 5%;
+        bottom: 1%;
+    }
+        .sub-sub{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .menu {
+        width: 95%;
+        max-width: 410px;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    .menu .logo {
+        order: 1;
+        margin:3% 22%;
+    }
+    .menu .fst {
+       padding-left: 8%;
+        order: 2;
+    }
+    .menu .open {
+        order: 3;
+    }
+    .menu .snd {
+        order: 4;
+    }
+    .menu .td {
+        order:5;
+        padding-left: 8%;
+    }
+    .menu .fth {
+        order: 6;
+    }
+    .menu .ffth {
+        order: 7;
+    }
+    
 }
 @media (max-width: 480px) {
-
-    .wrapper,
-    .footer,
-    .bot-nav {
-        
-        width: 100%;
-        display: flex;
-        
-        flex-direction: column;
-    }
     .wrapper {
-        display: flex;
-        justify-content: center;
+        min-width: 400px;
     }
-    .h-gallery h2{
-        padding-left: 50%;
+    .gallery div, .gallery img {
+        width: 100%;
     }
-    .gallery {
-        display: flex;
-        justify-content: center;
-        margin-left: 0%;
-        
+    .bot-nav {
+        min-width: 400px;
     }
     .bot-nav ul {
-        padding-right: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1% 10%;
+        
     }
-    .info li{
-        margin-left: 0 auto;
+    .info li {
+        width: 30%;
     }
     .info .FAQS-PAGE {
         order: 1;
@@ -472,5 +461,42 @@ a {
     }
     .info .TEL {
         order: 8;
+    }
+    .footer {
+        margin: 0;
+    }
+     .sub-sub{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .menu {
+        min-width: 400px;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    .menu .logo {
+        order: 1;
+        margin:3% 22%;
+    }
+    .menu .fst {
+/*       padding-left: 8%;*/
+        order: 2;
+    }
+    .menu .open {
+        order: 3;
+    }
+    .menu .snd {
+        order: 4;
+    }
+    .menu .td {
+        order:5;
+/*        padding-left: 8%;*/
+    }
+    .menu .fth {
+        order: 6;
+    }
+    .menu .ffth {
+        order: 7;
     }
 }
