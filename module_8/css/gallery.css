@@ -8,7 +8,7 @@ body {
     background-image: url(../img/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;    
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -186,6 +186,7 @@ a {
     max-width: 1000px;
     width: 95%;
 }
+
 .bot-nav ul {
     list-style: none;
     line-height: 30px;
@@ -297,205 +298,256 @@ a {
     opacity: .7;
     transition: opacity .7 ease-out;
 }
+
 @media (max-width: 1024px) {
     .gallery {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        
+
     }
+    
     .gallery div {
         width: 30%;
-    }
-    .info .FAQS-PAGE {
-        order: 1;
-    }
-    .info .PEOPLE-SAY {
-        order: 5;
-    }
-    .info .USEFUL-LINKS {
-        order: 2;
-    }
-    .info .PARTNERS {
-        order: 6;
-    }
-    .info .INSURANCE {
-        order: 3;  
-    }
-    .info .FAMILY-TRAVEL {
-        order: 7;
-    }
-    .info .CONTACT-US {
-        order: 4;
-    }
-    .info .TEL {
-        order: 8;
-    }
-    .tt {
-        bottom: 5%;
-        right: 5%;
-    }
-        
-}
-@media (max-width: 768px) {
-    .gallery div {
-        width: 40%;
-    }
-    .bot-nav ul{
-        padding: 5%;
-        margin: 0;
-    }
-    .bot-nav li {
-        padding: 0;
-        padding-left: %; 
-    }
-    .bot-nav li a {
-        font-size: 1em;
-        padding: 5%;
     }
     
     .info .FAQS-PAGE {
         order: 1;
     }
+    
     .info .PEOPLE-SAY {
-        order: 2;
-    }
-    .info .USEFUL-LINKS {
-        order: 3;
-    }
-    .info .PARTNERS {
-        order: 7;
-    }
-    .info .INSURANCE {
         order: 5;
     }
-    .info .FAMILY-TRAVEL {
+    
+    .info .USEFUL-LINKS {
+        order: 2;
+    }
+    
+    .info .PARTNERS {
         order: 6;
     }
+    
+    .info .INSURANCE {
+        order: 3;
+    }
+    
+    .info .FAMILY-TRAVEL {
+        order: 7;
+    }
+    
     .info .CONTACT-US {
         order: 4;
     }
+    
     .info .TEL {
         order: 8;
     }
+    
+    .tt {
+        bottom: 5%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery div {
+        width: 40%;
+    }
+    
+    .bot-nav ul {
+        padding: 5%;
+        margin: 0;
+    }
+    
+    .bot-nav li {
+        padding: 0;
+        padding-left: %;
+    }
+    
+    .bot-nav li a {
+        font-size: 1em;
+        padding: 5%;
+    }
+
+    .info .FAQS-PAGE {
+        order: 1;
+    }
+    
+    .info .PEOPLE-SAY {
+        order: 2;
+    }
+    
+    .info .USEFUL-LINKS {
+        order: 3;
+    }
+    
+    .info .PARTNERS {
+        order: 7;
+    }
+    
+    .info .INSURANCE {
+        order: 5;
+    }
+    
+    .info .FAMILY-TRAVEL {
+        order: 6;
+    }
+    
+    .info .CONTACT-US {
+        order: 4;
+    }
+    
+    .info .TEL {
+        order: 8;
+    }
+    
     .tt {
         right: 5%;
         bottom: 1%;
     }
-        .sub-sub{
+    
+    .sub-sub {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
+    
     .menu {
         width: 95%;
         max-width: 410px;
         margin-bottom: 5%;
         margin-left: 10%;
     }
+    
     .menu .logo {
         order: 1;
-        margin:3% 22%;
+        margin: 3% 22%;
     }
+    
     .menu .fst {
-       padding-left: 8%;
+        padding-left: 8%;
         order: 2;
     }
+    
     .menu .open {
         order: 3;
     }
+    
     .menu .snd {
         order: 4;
     }
+    
     .menu .td {
-        order:5;
+        order: 5;
         padding-left: 8%;
     }
+    
     .menu .fth {
         order: 6;
     }
+    
     .menu .ffth {
         order: 7;
     }
-    
 }
+
 @media (max-width: 480px) {
     .wrapper {
         min-width: 400px;
     }
-    .gallery div, .gallery img {
+    
+    .gallery div,
+    .gallery img {
         width: 100%;
     }
+    
     .bot-nav {
         min-width: 400px;
     }
+    
     .bot-nav ul {
         display: flex;
         flex-wrap: wrap;
         padding: 1% 10%;
-        
     }
+    
     .info li {
         width: 30%;
     }
+    
     .info .FAQS-PAGE {
         order: 1;
     }
+    
     .info .PEOPLE-SAY {
         order: 2;
     }
+    
     .info .USEFUL-LINKS {
         order: 3;
     }
+    
     .info .PARTNERS {
         order: 4;
     }
+    
     .info .INSURANCE {
         order: 5;
     }
+    
     .info .FAMILY-TRAVEL {
         order: 6;
     }
+    
     .info .CONTACT-US {
         order: 7;
     }
+    
     .info .TEL {
         order: 8;
     }
+    
     .footer {
         margin: 0;
     }
-     .sub-sub{
+    
+    .sub-sub {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
+    
     .menu {
         min-width: 400px;
         margin-left: 0;
         margin-bottom: 5%;
     }
+    
     .menu .logo {
         order: 1;
-        margin:3% 22%;
+        margin: 3% 22%;
     }
+    
     .menu .fst {
-/*       padding-left: 8%;*/
         order: 2;
     }
+    
     .menu .open {
         order: 3;
     }
+    
     .menu .snd {
         order: 4;
     }
+    
     .menu .td {
-        order:5;
-/*        padding-left: 8%;*/
+        order: 5;
     }
+    
     .menu .fth {
         order: 6;
     }
+    
     .menu .ffth {
         order: 7;
     }
