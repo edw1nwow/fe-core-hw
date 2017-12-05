@@ -513,7 +513,18 @@ a {
     .info li:nth-child(8) a{
         width: 48%;
         font-size: .7em;
-        padding: 0 1%;
+        padding: 0 0%;
+        
+    }
+    
+    .info li:nth-child(8) a:nth-child(1)::before{
+        content: url(../img/telephone.png);
+        margin: 10% 3%;
+        line-height: 30px;
+    }
+    .info li:nth-child(8) a:nth-child(2)::before{
+        content: url(../img/mail.png);
+         margin: 10% 3%;
     }
     
     .footer {
