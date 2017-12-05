@@ -26,6 +26,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    min-width: 400px;
 }
 
 .menu li {
@@ -97,6 +98,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
+    min-width: 400px;
     width: 95%;
     padding: 50px 50px;
     box-sizing: border-box;
@@ -184,6 +186,7 @@ a {
     color: #fff;
     margin: 0;
     max-width: 1000px;
+    min-width: 400px;
     width: 95%;
 }
 
@@ -233,7 +236,7 @@ a {
     padding: 0;
     list-style: none;
     display: flex;
-    width: 95%;
+    width: 100%;
     max-width: 1000px;
     justify-content: center;
     align-items: center;
@@ -452,17 +455,9 @@ a {
 }
 
 @media (max-width: 480px) {
-    .wrapper {
-        min-width: 400px;
-    }
-    
     .gallery div,
     .gallery img {
         width: 100%;
-    }
-    
-    .bot-nav {
-        min-width: 400px;
     }
     
     .bot-nav ul {
@@ -505,20 +500,44 @@ a {
     
     .info .TEL {
         order: 8;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .info li:nth-child(8){
+        width: 61%;
+    }
+    
+    .info li:nth-child(8) a{
+        width: 48%;
+        font-size: .7em;
+        padding: 0 1%;
     }
     
     .footer {
         margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .footer ul {
+        padding: 20px 0;
     }
     
     .sub-sub {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        width: 100%;
+        padding: 0;
     }
     
     .menu {
-        min-width: 400px;
         margin-left: 0;
         margin-bottom: 5%;
     }
