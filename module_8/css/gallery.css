@@ -118,11 +118,12 @@ a {
     right: 15.6%;
     bottom: 3%;
     opacity: .5;
+    transition: opacity 1s ease-out;
 }
 
 .tt:hover {
     opacity: 1;
-    transition: opacity 1s ease-out;
+    
 }
 
 .gallery {
@@ -142,7 +143,7 @@ a {
 }
 
 .gallery div::after {
-    background-color: grey;
+    background-color: #4d5f6b;
     opacity: 0;
     position: absolute;
     width: 100%;
@@ -153,6 +154,7 @@ a {
     line-height: 180px;
     display: block;
     overflow: hidden;
+    transition: opacity 1s ease-out;
 }
 
 .gallery div:hover::after {
@@ -227,7 +229,7 @@ a {
     flex-direction: column;
     max-width: 1000px;
     width: 95%;
-    padding: 50px 50px;
+    padding: 50px;
     box-sizing: border-box;
 }
 
