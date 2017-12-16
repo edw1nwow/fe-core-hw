@@ -1,0 +1,23 @@
+.sidebar {
+  height: 100px;
+  background-color: yellow;
+}
+.sidebar-1 {
+  height: 100px;
+  background-color: palevioletred;
+}
+.sidebar-2 {
+  height: 100px;
+  background-color: red;
+}
+
+.content {
+  height: 100px;
+  background-color: green;
+}
+.redison {
+  height: 100px;
+  background-color: black;
+}
+
+[class*="col-"] { padding:0; }
