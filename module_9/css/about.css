@@ -16,6 +16,7 @@ body {
 .hided {
     display: none;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -23,6 +24,7 @@ nav {
     width: 95%;
     max-width: 1000px;
 }
+
 .menu a:hover {
   color: #fff;
   text-decoration: none;
@@ -319,40 +321,39 @@ p {
     justify-content: center;
     width: 24%;
     padding-left:1%;
-    }
+}
     
-    .info .FAQS-PAGE {
-        order: 1;
-    }
+.info .FAQS-PAGE {
+    order: 1;
+}
     
-    .info .PEOPLE-SAY {
-        order: 2;
-    }
+.info .PEOPLE-SAY {
+    order: 2;
+}
     
-    .info .USEFUL-LINKS {
-        order: 3;
-    }
+.info .USEFUL-LINKS {
+    order: 3;
+}
     
-    .info .PARTNERS {
-        order: 7;
-    }
+.info .PARTNERS {
+    order: 7;
+}
     
-    .info .INSURANCE {
-        order: 5;
-    }
+.info .INSURANCE {
+    order: 5;
+}
     
-    .info .FAMILY-TRAVEL {
-        order: 6;
-    }
+.info .FAMILY-TRAVEL {
+    order: 6;
+}
     
-    .info .CONTACT-US {
-        order: 4;
-    }
+.info .CONTACT-US {
+    order: 4;
+}
     
-    .info .TEL {
-        order: 8;
-    }
-    
+.info .TEL {
+    order: 8;
+} 
 
 .footer {
     margin: 0;
@@ -423,6 +424,7 @@ p {
     width: 95%;
     justify-content: center;
 }
+
 .sub-sub a, .sub-sub p {
     font-size: 15px;
     color: #fff;
@@ -432,6 +434,7 @@ p {
     opacity: .7;
     transition: opacity .7 ease-out;
 }
+
 @media (max-width: 1024px) {
     .info li {
     justify-content: center;
@@ -761,6 +764,5 @@ p {
         order: 7;
     }
 }
-
 
 [class*="col-"] { padding:0; }

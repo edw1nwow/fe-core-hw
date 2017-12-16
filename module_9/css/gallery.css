@@ -171,6 +171,7 @@ a {
 .gallery div {
     width: 50%;    
 }
+
 .gallery .zoom {
     position: absolute;
     display: none;
@@ -314,7 +315,6 @@ a {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-
     }
     
     .gallery div {
