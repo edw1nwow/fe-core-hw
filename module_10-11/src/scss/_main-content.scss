@@ -1,0 +1,46 @@
+.main {
+    width: 90%;
+    margin: 0 auto;
+
+    .heading-2 {
+        font-size: 30px; //font-family: $heading-font;
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 50px;
+        
+        &__image-wrapper {
+            margin-bottom: 20px;
+            position: relative;
+            &:hover {
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    margin-top: -25px;
+                    margin-left: -25px;
+                    background-size: contain;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 9999;
+                    background-image: url(../img/1.svg);
+                }
+                .gallery__image {
+                    filter: grayscale(1) brightness(.3);
+                    position: relative;
+
+                }
+            }
+        }
+    }
+}

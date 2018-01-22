@@ -1,0 +1,21 @@
+.footer {
+    width: 90%;
+    margin: 0 auto; 
+    &__menu {
+        display: flex;
+        align-self: center;
+        flex-wrap: wrap;
+        &-items {
+            width:230px;
+            justify-content: center;
+            display: flex;
+           } 
+        &-link {
+            color: $color4;  
+            line-height: 50px;  
+        }
+        &-link:hover {
+            color: $color1;
+        }
+    }
+}

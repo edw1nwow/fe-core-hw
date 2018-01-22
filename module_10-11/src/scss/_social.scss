@@ -1,0 +1,54 @@
+.social {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+
+    &__item {
+        
+            width: 50px;
+            height: 50px;
+            background-color: $color4;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            margin: 10px;
+            
+        
+        &-twitter {
+            background-image: url(../img/Sprite.svg);
+            background-repeat: no-repeat;
+            background-position: -34px -37px;
+            width: 50px;
+            height: 50px;
+        }
+
+        &-fb {
+            background-image: url(../img/Sprite.svg);
+            background-repeat: no-repeat;
+            background-position: -106px -37px;
+            width: 50px;
+            height: 50px;
+        }
+
+        &-gplus {
+            background-image: url(../img/Sprite.svg);
+            background-repeat: no-repeat;
+            background-position: -175px -37px;
+            width: 50px;
+            height: 50px;
+        }
+
+        &-inst {
+            background-image: url(../img/Sprite.svg);
+            background-repeat: no-repeat;
+            background-position: -245px -37px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    &__item:hover {
+        opacity: .3;
+    }
+}

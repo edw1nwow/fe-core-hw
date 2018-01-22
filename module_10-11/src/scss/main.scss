@@ -1,0 +1,46 @@
+@import 'varibles';
+@import 'header';
+@import 'reset';
+@import 'main-content';
+@import 'footer';
+@import 'social';
+
+body {
+    font-family: $standart-font;
+    background-image: url(../img/page-bg.png);
+}
+.wrapper {
+    width: 80%;
+    min-width: 992px;
+    margin: 0 auto; 
+}
+.main {
+    background-color: $color4;
+    padding: 50px;
+}
+.footer {
+    background-color: $color5;
+    padding: 50px;
+}
+
+.tt {
+    content: "↑";
+    color: #fff;
+    border: 5px solid #38afe5;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: #38afe5;
+    padding: 3px;
+    text-align: center;
+    width: 10px;
+    position: fixed;
+    right: 13.6%;
+    bottom: 3%;
+    opacity: .5;
+    transition: opacity 1s ease-out;
+}
+
+.tt:hover {
+    opacity: 1;
+    
+}
