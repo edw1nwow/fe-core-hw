@@ -1,12 +1,15 @@
 .social {
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding: 50px;
-
     &__item {
-        
             width: 50px;
             height: 50px;
             background-color: $color4;
@@ -14,8 +17,6 @@
             text-align: center;
             line-height: 50px;
             margin: 10px;
-            
-        
         &-twitter {
             background-image: url(../img/Sprite.svg);
             background-repeat: no-repeat;
@@ -23,7 +24,6 @@
             width: 50px;
             height: 50px;
         }
-
         &-fb {
             background-image: url(../img/Sprite.svg);
             background-repeat: no-repeat;
@@ -31,7 +31,6 @@
             width: 50px;
             height: 50px;
         }
-
         &-gplus {
             background-image: url(../img/Sprite.svg);
             background-repeat: no-repeat;
@@ -39,7 +38,6 @@
             width: 50px;
             height: 50px;
         }
-
         &-inst {
             background-image: url(../img/Sprite.svg);
             background-repeat: no-repeat;

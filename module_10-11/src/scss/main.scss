@@ -4,7 +4,6 @@
 @import 'main-content';
 @import 'footer';
 @import 'social';
-
 body {
     font-family: $standart-font;
     background-image: url(../img/page-bg.png);
@@ -22,7 +21,6 @@ body {
     background-color: $color5;
     padding: 50px;
 }
-
 .tt {
     content: "↑";
     color: #fff;
@@ -37,10 +35,10 @@ body {
     right: 13.6%;
     bottom: 3%;
     opacity: .5;
+    -webkit-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 }
-
 .tt:hover {
-    opacity: 1;
-    
+    opacity: 1;   
 }
